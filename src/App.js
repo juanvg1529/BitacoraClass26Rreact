@@ -13,9 +13,9 @@ export default function App() {
           <Album
             artista={elemento.artista}
             titulo={elemento.titulo}
-            fecha={elemento.fecha}
+            fecha={elemento.lanzamientos}
             agrupacion={elemento.agrupacion}
-            cover={elemento.cover}
+            cover={elemento.portada}
             genero={elemento.genero}
           />
         );
